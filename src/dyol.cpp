@@ -1,3 +1,17 @@
+/******************************************************/
+//       THIS IS A GENERATED FILE - DO NOT EDIT       //
+/******************************************************/
+
+#include "application.h"
+#line 1 "c:/Users/Nerdom/Desktop/dyol/src/dyol.ino"
+void internalTempFunction();
+void externalTempFunction();
+void displayManagementFunction();
+void blynkDataPushFunction();
+void nfcPairingFunction();
+void setup();
+void loop();
+#line 1 "c:/Users/Nerdom/Desktop/dyol/src/dyol.ino"
 SYSTEM_THREAD(ENABLED);
 
 #include <blynk.h>
