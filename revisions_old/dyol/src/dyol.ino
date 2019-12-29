@@ -97,7 +97,7 @@ void internalTempFunction() {
 void externalTempFunction() {
   while(1){
     //display external temp     SPRINTF
-    //double temp = https://api.weatherbit.io/v2.0/current?city=Lombard,NC&key=c175924274b5402e8413adbee368dd35;
+    //double temp = https://api.weatherbit.io/v2.0/current?city=Lombard,NC&key=;
     char data[64];
     sprintf(data, "%f,%f", 41.8781, -87.6298);
     Particle.publish("tempRead", data, PRIVATE);
@@ -108,7 +108,7 @@ void externalTempFunction() {
 /*void googleLocationFunction() {
   while(1){
     //display external temp     SPRINTF
-    //double temp = https://api.weatherbit.io/v2.0/current?city=Lombard,NC&key=c175924274b5402e8413adbee368dd35;
+    //double temp = https://api.weatherbit.io/v2.0/current?city=Lombard,NC&key=;
     char data[64];
     sprintf(data, "%f,%f", 41.8781, -87.6298);
     Particle.publish("tempRead", data, PRIVATE);
